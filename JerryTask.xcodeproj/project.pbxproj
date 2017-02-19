@@ -7,25 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DDA6C179EB4E852BD058D334 /* libPods-JerryTask.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FECA600904D8C274E04345C1 /* libPods-JerryTask.a */; };
 		DEF964BA1E57F4B800F80E5D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF964B91E57F4B800F80E5D /* main.m */; };
 		DEF964BD1E57F4B800F80E5D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF964BC1E57F4B800F80E5D /* AppDelegate.m */; };
-		DEF964C01E57F4B800F80E5D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF964BF1E57F4B800F80E5D /* ViewController.m */; };
 		DEF964C31E57F4B800F80E5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEF964C11E57F4B800F80E5D /* Main.storyboard */; };
 		DEF964C51E57F4B800F80E5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEF964C41E57F4B800F80E5D /* Assets.xcassets */; };
 		DEF964C81E57F4B800F80E5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEF964C61E57F4B800F80E5D /* LaunchScreen.storyboard */; };
+		DEF964D41E57F96B00F80E5D /* BasicCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF964D31E57F96B00F80E5D /* BasicCell.m */; };
+		DEF964D71E57F9B000F80E5D /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF964D61E57F9B000F80E5D /* MainViewController.m */; };
+		DEF964DA1E57FB3200F80E5D /* AnimalEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF964D91E57FB3200F80E5D /* AnimalEntity.m */; };
+		DEF964DD1E57FC0C00F80E5D /* Animal.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF964DC1E57FC0C00F80E5D /* Animal.m */; };
+		DEF964E41E5938D400F80E5D /* AnimalService.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF964E31E5938D400F80E5D /* AnimalService.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		573BE5BD84D22D6626C78A09 /* Pods-JerryTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JerryTask.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JerryTask/Pods-JerryTask.debug.xcconfig"; sourceTree = "<group>"; };
+		C2F67C0E749ADE16CAC2DC2D /* Pods-JerryTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JerryTask.release.xcconfig"; path = "Pods/Target Support Files/Pods-JerryTask/Pods-JerryTask.release.xcconfig"; sourceTree = "<group>"; };
 		DEF964B51E57F4B800F80E5D /* JerryTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JerryTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEF964B91E57F4B800F80E5D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DEF964BB1E57F4B800F80E5D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DEF964BC1E57F4B800F80E5D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		DEF964BE1E57F4B800F80E5D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		DEF964BF1E57F4B800F80E5D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		DEF964C21E57F4B800F80E5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DEF964C41E57F4B800F80E5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DEF964C71E57F4B800F80E5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DEF964C91E57F4B800F80E5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEF964D21E57F96B00F80E5D /* BasicCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicCell.h; sourceTree = "<group>"; };
+		DEF964D31E57F96B00F80E5D /* BasicCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicCell.m; sourceTree = "<group>"; };
+		DEF964D51E57F9B000F80E5D /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		DEF964D61E57F9B000F80E5D /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		DEF964D81E57FB3200F80E5D /* AnimalEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimalEntity.h; sourceTree = "<group>"; };
+		DEF964D91E57FB3200F80E5D /* AnimalEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimalEntity.m; sourceTree = "<group>"; };
+		DEF964DB1E57FC0C00F80E5D /* Animal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animal.h; sourceTree = "<group>"; };
+		DEF964DC1E57FC0C00F80E5D /* Animal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Animal.m; sourceTree = "<group>"; };
+		DEF964E21E5938D400F80E5D /* AnimalService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimalService.h; sourceTree = "<group>"; };
+		DEF964E31E5938D400F80E5D /* AnimalService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimalService.m; sourceTree = "<group>"; };
+		FECA600904D8C274E04345C1 /* libPods-JerryTask.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JerryTask.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +49,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDA6C179EB4E852BD058D334 /* libPods-JerryTask.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8C61FA0C2057ADD55A1701F3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				573BE5BD84D22D6626C78A09 /* Pods-JerryTask.debug.xcconfig */,
+				C2F67C0E749ADE16CAC2DC2D /* Pods-JerryTask.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		DEF964AC1E57F4B800F80E5D = {
 			isa = PBXGroup;
 			children = (
 				DEF964B71E57F4B800F80E5D /* JerryTask */,
 				DEF964B61E57F4B800F80E5D /* Products */,
+				8C61FA0C2057ADD55A1701F3 /* Pods */,
+				F44C9BDBE869EA1A8A5F6B52 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +86,12 @@
 		DEF964B71E57F4B800F80E5D /* JerryTask */ = {
 			isa = PBXGroup;
 			children = (
+				DEF964D11E57F93000F80E5D /* View */,
+				DEF964D01E57F90C00F80E5D /* Model */,
+				DEF964CF1E57F8F400F80E5D /* Controller */,
 				DEF964BB1E57F4B800F80E5D /* AppDelegate.h */,
 				DEF964BC1E57F4B800F80E5D /* AppDelegate.m */,
-				DEF964BE1E57F4B800F80E5D /* ViewController.h */,
-				DEF964BF1E57F4B800F80E5D /* ViewController.m */,
-				DEF964C11E57F4B800F80E5D /* Main.storyboard */,
 				DEF964C41E57F4B800F80E5D /* Assets.xcassets */,
-				DEF964C61E57F4B800F80E5D /* LaunchScreen.storyboard */,
 				DEF964C91E57F4B800F80E5D /* Info.plist */,
 				DEF964B81E57F4B800F80E5D /* Supporting Files */,
 			);
@@ -79,6 +106,63 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		DEF964CF1E57F8F400F80E5D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DEF964D51E57F9B000F80E5D /* MainViewController.h */,
+				DEF964D61E57F9B000F80E5D /* MainViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		DEF964D01E57F90C00F80E5D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DEF964E11E59388300F80E5D /* Entity */,
+				DEF964E01E59384D00F80E5D /* Service */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		DEF964D11E57F93000F80E5D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DEF964C11E57F4B800F80E5D /* Main.storyboard */,
+				DEF964C61E57F4B800F80E5D /* LaunchScreen.storyboard */,
+				DEF964D21E57F96B00F80E5D /* BasicCell.h */,
+				DEF964D31E57F96B00F80E5D /* BasicCell.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		DEF964E01E59384D00F80E5D /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				DEF964E21E5938D400F80E5D /* AnimalService.h */,
+				DEF964E31E5938D400F80E5D /* AnimalService.m */,
+			);
+			name = Service;
+			sourceTree = "<group>";
+		};
+		DEF964E11E59388300F80E5D /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				DEF964D81E57FB3200F80E5D /* AnimalEntity.h */,
+				DEF964D91E57FB3200F80E5D /* AnimalEntity.m */,
+				DEF964DB1E57FC0C00F80E5D /* Animal.h */,
+				DEF964DC1E57FC0C00F80E5D /* Animal.m */,
+			);
+			name = Entity;
+			sourceTree = "<group>";
+		};
+		F44C9BDBE869EA1A8A5F6B52 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FECA600904D8C274E04345C1 /* libPods-JerryTask.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +170,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DEF964CC1E57F4B800F80E5D /* Build configuration list for PBXNativeTarget "JerryTask" */;
 			buildPhases = (
+				912C3F6F44D26B1F05ED95B2 /* [CP] Check Pods Manifest.lock */,
 				DEF964B11E57F4B800F80E5D /* Sources */,
 				DEF964B21E57F4B800F80E5D /* Frameworks */,
 				DEF964B31E57F4B800F80E5D /* Resources */,
+				7675DCF78CEECF22AAC14D58 /* [CP] Embed Pods Frameworks */,
+				9CE85C8164E0721EF0D5CD3F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -146,13 +233,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7675DCF78CEECF22AAC14D58 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JerryTask/Pods-JerryTask-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		912C3F6F44D26B1F05ED95B2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9CE85C8164E0721EF0D5CD3F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JerryTask/Pods-JerryTask-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DEF964B11E57F4B800F80E5D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DEF964C01E57F4B800F80E5D /* ViewController.m in Sources */,
+				DEF964D41E57F96B00F80E5D /* BasicCell.m in Sources */,
+				DEF964DA1E57FB3200F80E5D /* AnimalEntity.m in Sources */,
 				DEF964BD1E57F4B800F80E5D /* AppDelegate.m in Sources */,
+				DEF964DD1E57FC0C00F80E5D /* Animal.m in Sources */,
+				DEF964E41E5938D400F80E5D /* AnimalService.m in Sources */,
+				DEF964D71E57F9B000F80E5D /* MainViewController.m in Sources */,
 				DEF964BA1E57F4B800F80E5D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -271,6 +410,7 @@
 		};
 		DEF964CD1E57F4B800F80E5D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 573BE5BD84D22D6626C78A09 /* Pods-JerryTask.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3YXC9UK8MK;
@@ -283,6 +423,7 @@
 		};
 		DEF964CE1E57F4B800F80E5D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2F67C0E749ADE16CAC2DC2D /* Pods-JerryTask.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3YXC9UK8MK;
@@ -312,6 +453,7 @@
 				DEF964CE1E57F4B800F80E5D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
